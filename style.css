@@ -45,6 +45,11 @@ section button
   padding: 40px;
   visibility: hidden;
 }
+.popup.active
+{
+  visibility: visible;
+  
+}
 .close
 {
   position: absolute;
