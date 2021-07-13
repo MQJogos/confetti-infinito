@@ -20,9 +20,13 @@
  </section>
  <script>
     let btn = document.querySelector('.btn');
-    let popup = document.querySelector('.popup')
+    let popup = document.querySelector('.popup');
+    let close = document.querySelector('.close')
     btn.onclick = function(){
       popup.classList.add('active')
+    }
+    close.onclick = function(){
+      popup.classList.remove('active')
     }
  </script>
        
