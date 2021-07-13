@@ -43,5 +43,16 @@ section button
   justify-content: center;
   align-items: center;
   padding: 40px;
+  visibility: hidden;
+}
+.close
+{
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px 20px;
+  background: #f00;
+  color: #fff;
+  
 }
 
