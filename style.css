@@ -1,0 +1,22 @@
+*
+{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: consolas;
+}
+section 
+{
+  position: relative;
+  padding: 60px;
+}
+section h2
+{
+  font-size: 2em;
+  margin-bottom: 10px;
+  
+}
+section p
+{
+  font-size: 1.1em;
+}
